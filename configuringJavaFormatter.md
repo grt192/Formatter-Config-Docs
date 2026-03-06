@@ -86,12 +86,12 @@ Append ths code to the end of your settings:
 
 **You need to insert code in two parts in this file**
 
-Plugins are typically found at the head of the file:
+You must insert a line into plugins, plugins are typically found at the head of the file:
 
 ```
 plugins {
     // other plugins
-    id "com.diffplug.spotless" version "7.0.2"
+    id "com.diffplug.spotless" version "7.0.2" <--Insert this line
 }
 ```
 
