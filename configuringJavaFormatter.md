@@ -108,7 +108,7 @@ spotless {
 compileJava.dependsOn spotlessApply
 ```
 
-The complete file should look like this:
+The complete file should look similar to this, there will be other configs that you should keep in place:
 
 ```
 plugins {
