@@ -132,7 +132,7 @@ compileJava.dependsOn spotlessApply
 
 ### 3.) ./eclipse-java-formatter.xml
 
-This is a new file that you must make, the file can be found here: [./eclipse-java-formatter.xml](./example_files/eclipse-java-formatter.xml) or as text at the end of the file (might be outdated).
+This is a new file that you must make in project root, the file can be found here: [./eclipse-java-formatter.xml](./example_files/eclipse-java-formatter.xml) or as text at the end of the file (might be outdated).
 
 ## ./eclipse-java-formatter.xml
 
