@@ -28,7 +28,7 @@ These files should be easy to find but just in case this is where the files shou
 ├── build
 ├── build.gradle <-- HERE!!
 ├── com
-├── eclipse-java-formatter.xml <-- HERE!!
+├── eclipse-java-formatter.xml <-- MUST ADD THIS FILE HERE!!
 ├── gradle
 ├── gradlew
 ├── gradlew.bat
@@ -86,7 +86,7 @@ Append ths code to the end of your settings:
 
 **You need to insert code in two parts in this file**
 
-Plugins are typically found at the head of the file
+Plugins are typically found at the head of the file:
 
 ```
 plugins {
@@ -95,7 +95,7 @@ plugins {
 }
 ```
 
-Append this to the end of the file
+Append this to the end of the file:
 
 ```
 // Auto-format code on build using Eclipse formatter
