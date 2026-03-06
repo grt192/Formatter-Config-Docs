@@ -63,7 +63,7 @@ Append ths code to the end of your settings:
 "editor.tabSize": 4
 ```
 
-`settings.json` should look like this
+`settings.json` should look similar to this, there will be other configs that you should keep in place:
 
 ```
 {
@@ -108,7 +108,7 @@ spotless {
 compileJava.dependsOn spotlessApply
 ```
 
-The complete file should look similar to this, there will be other configs that you should keep in place:
+`./build.gradle` should look similar to this, there will be other configs that you should keep in place:
 
 ```
 plugins {
