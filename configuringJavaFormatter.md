@@ -9,6 +9,8 @@ The Code must be modified in 3 places for full functionality of the formatter.
 2.  In `./build.gradle` which will format on code build, while this is technically optional it's nice to have and will create merge conflicts with other team members formatting everything.
 3.  In `./eclipse-java-formatter.xml` this file configures the behavior of the formatter.
 
+**IMPORTANT:** If you want to save and format right away, you must reload your window. In the command palette (Cmd/Ctrl + Shift + P) run: `Developer: Reload Window`.
+
 ## File Structure
 
 These files should be easy to find but just in case this is where the files should be found in a typical WPI project. I will also include links to example files in each subsection.
