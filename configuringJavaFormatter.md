@@ -4,7 +4,7 @@
 
 The formatter that comes with the Java extension is a headless eclipse version which is used for formatting when saving and calling `Format Document` from the command pallette (Cmd/Ctrl + Shift + P) and spotless is used for formatting with gradle build.
 
-The Code must be modified in 3 places for full functionality of the formatter.
+**The Code must be modified in 3 places for full functionality of the formatter:**
 
 1.  In `./.vscode/settings.json` which will modify VS Code to format on save and use the correct tab sizing.
 2.  In `./build.gradle` which will format on code build, while this is technically optional it's nice to have and will create merge conflicts with other team members formatting everything.
