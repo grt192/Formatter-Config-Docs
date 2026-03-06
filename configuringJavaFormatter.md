@@ -79,7 +79,7 @@ Append ths code to the end of your settings:
 }
 ```
 
-**Example File: [./.vscode/settings.json](./settings.json)**
+**Example File: [./.vscode/settings.json](./example_files/settings.json)**
 
 ### 2.) ./build.gradle
 
@@ -127,11 +127,11 @@ spotless {
 compileJava.dependsOn spotlessApply
 ```
 
-**Example File: [./build.gradle](./build.gradle)**
+**Example File: [./build.gradle](./example_files/build.gradle)**
 
 ### 3.) ./eclipse-java-formatter.xml
 
-This is a new file that you must make, the file can be found here: [./eclipse-java-formatter.xml](./eclipse-java-formatter.xml) or as text at the end of the file (might be outdated).
+This is a new file that you must make, the file can be found here: [./eclipse-java-formatter.xml](./example_files/eclipse-java-formatter.xml) or as text at the end of the file (might be outdated).
 
 ## ./eclipse-java-formatter.xml
 
